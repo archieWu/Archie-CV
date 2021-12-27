@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import Routes from './routes';
-import Welcome from '@components/Welcome/Welcome';
 
 ReactDOM.render(
     <React.StrictMode>
-      <Welcome/>
       <Routes/>
     </React.StrictMode>,
     document.getElementById('root'),

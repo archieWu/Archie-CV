@@ -6,7 +6,6 @@ import {PageWrapper} from './Welcome.styled';
 const Welcome = () => {
   useEffect(() => {
     const lestword = document.querySelector('#fifteen');
-
     const animation = document.querySelector('div.animation');
     lestword.addEventListener('animationend', () => {
       animation.style = 'transition: all 1s ease; opacity: 0; pointer-events: none;';
