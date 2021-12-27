@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -22,12 +22,13 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     font-family: 'Montserrat', 'Noto Sans TC', 'Microsoft JhengHei', '微軟正黑體', sans-serif;
     overflow: hidden;
+    background-color: #202060;
   }
 
   #root {
     display: flex;
     height: 100%;
   }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-import { Column } from '../StyledModule/Grid.styled'
+import styled from 'styled-components';
 
 const PageWrapper = styled.div`
   div.animation {
@@ -15,13 +14,14 @@ const PageWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+
   @keyframes fadeInside {
     to {
       stroke-dashoffset: 0px;
     }
   }
   @keyframes fill {
-    form{
+    form {
       fill: transparent;
     }
 
@@ -29,115 +29,104 @@ const PageWrapper = styled.div`
       fill: white;
     }
   }
+
   svg {
     animation: fill 1.5s ease-in forwards 2.4s;
   }
+
   #one {
     stroke-dasharray: 424px;
     stroke-dashoffset: 424px;
-    animation: fadeInside 1s ease-in forwards ;
+    animation: fadeInside 1s ease-in forwards;
   }
+
   #two {
     stroke-dasharray: 217;
     stroke-dashoffset: 217;
     animation: fadeInside 1s ease-in forwards 0.3s;
   }
+
   #three {
     stroke-dasharray: 337px;
     stroke-dashoffset: 337px;
     animation: fadeInside 1s ease-in forwards 0.6s;
   }
+
   #four {
     stroke-dasharray: 415px;
     stroke-dashoffset: 415px;
     animation: fadeInside 1s ease-in forwards 0.9s;
   }
+
   #five {
     stroke-dasharray: 233px;
     stroke-dashoffset: 233px;
     animation: fadeInside 1s ease-in forwards 1.2s;
   }
+
   #six {
     stroke-dasharray: 379px;
     stroke-dashoffset: 379px;
     animation: fadeInside 1s ease-in forwards 1.5s;
   }
+
   #seven {
     stroke-dasharray: 658px;
     stroke-dashoffset: 658px;
     animation: fadeInside 1s ease-in forwards 1.8s;
   }
+
   #eight {
     stroke-dasharray: 359px;
     stroke-dashoffset: 359px;
     animation: fadeInside 1s ease-in forwards 2.1s;
   }
+
   #nine {
     stroke-dasharray: 1376px;
     stroke-dashoffset: 1376px;
     animation: fadeInside 1s ease-in forwards 0.3s;
   }
+
   #ten {
     stroke-dasharray: 1124px;
     stroke-dashoffset: 1124px;
     animation: fadeInside 1s ease-in forwards 0.6s;
   }
+
   #eleven {
     stroke-dasharray: 919px;
     stroke-dashoffset: 919px;
     animation: fadeInside 1s ease-in forwards 0.9s;
   }
+
   #twelve {
     stroke-dasharray: 1382px;
     stroke-dashoffset: 1382px;
     animation: fadeInside 1s ease-in forwards 1.2s;
   }
+
   #thirteen {
     stroke-dasharray: 602px;
     stroke-dashoffset: 602px;
     animation: fadeInside 1s ease-in forwards 1.5s;
   }
+
   #fourteen {
     stroke-dasharray: 1274px;
     stroke-dashoffset: 1274px;
     animation: fadeInside 1s ease-in forwards 1.8s;
   }
+
   #fifteen {
     stroke-dasharray: 1203px;
     stroke-dashoffset: 1203px;
     animation: fadeInside 1s ease-in forwards 2.1s;
   }
 
-`
+`;
 
-const Category = styled.div`
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.6rem;
-
-  h3 {
-    margin: -.4rem 1.2rem 0 1.2rem;
-    font-weight: 500;
-    color: ${props => props.theme.colors.primary.primaryRegular};
-  }
-
-  p {
-    margin-top: -.4rem;
-    font-size: 1.4rem;
-  }
-`
-
-const Cards = styled.div`
-  display: flex;
-  flex-direction: column;
-`
-
-const EducationColumn = styled(Column)`
-  @media (max-width: 1200px) {
-    order: 2;
-  }
-`
 
 export {
-  PageWrapper
-}
+  PageWrapper,
+};
