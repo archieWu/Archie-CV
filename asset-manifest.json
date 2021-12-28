@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Archie-CV/static/js/main.bba89806.js",
+    "main.js": "/Archie-CV/static/js/main.2522cec1.js",
     "static/js/787.18c885b7.chunk.js": "/Archie-CV/static/js/787.18c885b7.chunk.js",
     "static/media/homeBackground.png": "/Archie-CV/static/media/homeBackground.b6f2f96fe7f7047f8837.png",
     "static/media/avatar.png": "/Archie-CV/static/media/avatar.6dd11084ecfcbae5c28a.png",
@@ -12,10 +12,10 @@
     "static/media/work.svg": "/Archie-CV/static/media/work.e3ca00a31e8817957468c4052b9bbda0.svg",
     "static/media/skills.svg": "/Archie-CV/static/media/skills.7e1b49f235c58088feba3e9f5efc821a.svg",
     "static/media/home.svg": "/Archie-CV/static/media/home.533694a90ac716a260106987b748b05c.svg",
-    "main.bba89806.js.map": "/Archie-CV/static/js/main.bba89806.js.map",
+    "main.2522cec1.js.map": "/Archie-CV/static/js/main.2522cec1.js.map",
     "787.18c885b7.chunk.js.map": "/Archie-CV/static/js/787.18c885b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bba89806.js"
+    "static/js/main.2522cec1.js"
   ]
 }
