@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     font-family: 'Montserrat', 'Noto Sans TC', 'Microsoft JhengHei', '微軟正黑體', sans-serif;
     overflow: hidden;
+    color: #ffffff;
     background-color: #202060;
   }
 

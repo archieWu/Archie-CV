@@ -40,6 +40,7 @@ const Link = styled.div`
 
     &:last-child {
       margin-right: 0;
+      color: #888888;
     }
 
     &:hover {

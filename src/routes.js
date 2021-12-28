@@ -4,6 +4,7 @@ import GlobalStyle from '@components/globalStyle';
 import Welcome from '@components/Welcome/Welcome';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from '@views/Home';
+import About from '@views/About';
 
 const AllRoutes = () => {
   return (
@@ -12,10 +13,10 @@ const AllRoutes = () => {
       <Sidebar/>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        {/*  <Route path="/about" component={About}/>*/}
-        {/*  <Route path="/experience" component={Experience}/>*/}
-        {/*  <Route path="/project" component={Project}/>*/}
-        {/*  <Route path="/contact" component={Contact}/>*/}
+        <Route path="/about" element={<About/>}/>
+        {/*  <Route path="/experience" element={Experience}/>*/}
+        {/*  <Route path="/project" element={Project}/>*/}
+        {/*  <Route path="/contact" element={Contact}/>*/}
       </Routes>
       <GlobalStyle/>
     </BrowserRouter>
