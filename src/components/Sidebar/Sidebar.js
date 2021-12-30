@@ -3,11 +3,13 @@ import {Link, Menu, MenuTitle} from './Sidebar.styled';
 import Nav from './Navbar/Navbar.styled';
 import Navbar from './Navbar/Navbar';
 import {ReactComponent as GithubIcon} from '@images/github.svg';
+import {useSelector} from 'react-redux';
 
 
 const Sidebar = () => {
+  const isMenuOpen = useSelector((state) => state.menuReducer);
   return (
-    <Menu>
+    <Menu isMenuOpen={isMenuOpen && true}>
       <MenuTitle>
         <p>Archie<span> CV</span></p>
       </MenuTitle>
@@ -17,8 +19,8 @@ const Sidebar = () => {
       <Link>
         <a href="https://github.com/archieWu" target="_blank" rel="noreferrer noopener"><GithubIcon/>Archie
                     Wu</a>
-        <a href="https://storyset.com/" target="_blank" rel="noreferrer noopener">Illustration by
-                    Storyset</a>
+        <a href="https://storyset.com/" target="_blank" rel="noreferrer noopener">Illustration by Storyset</a>
+
       </Link>
 
 

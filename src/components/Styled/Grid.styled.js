@@ -8,12 +8,17 @@ const Row = styled.div`
 const Column = styled.div`
   margin-bottom: 4.8rem;
 
-  margin-right: 3.2rem;
-  width: calc(50% - 1.6rem);
-
-  &:last-child {
-    width: 100%;
-  }
+  ${
+  (props) => props.$fullWidth ?
+                  (`
+      margin: 0;
+      width: 100%;
+      `) :
+                  (`
+      margin-right: 3.2rem;
+      width: calc(50% - 1.6rem);
+      `)
+};
 
   @media (max-width: 1200px) {
     margin-right: 0;

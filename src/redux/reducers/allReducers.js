@@ -1,5 +1,6 @@
 import {combineReducers} from 'redux';
 import detailsReducer from './detailsReducer';
+import menuReducer from './menuReducer';
 
 
 /**
@@ -7,6 +8,7 @@ import detailsReducer from './detailsReducer';
  */
 const allReducers = combineReducers({
   detailsReducer,
+  menuReducer,
 });
 
 

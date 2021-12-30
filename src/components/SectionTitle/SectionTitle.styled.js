@@ -45,7 +45,7 @@ const SectionTitleStyled = styled.div`
   @keyframes fadeInDown {
     from {
       opacity: 0;
-      transform: translateY(-4rem);
+      transform: translateX(500%);
     }
     to {
       opacity: 1;
