@@ -2,7 +2,7 @@
 
 It's my CV website.
 
-You can clone the project or [preview the website on the link](https://github.com/archieWu/Archie-CV). (github-pages)
+You can clone the project or [preview the website on the link](https://archiewu.github.io/Archie-CV/). (github-pages)
 
 
 ### Install
